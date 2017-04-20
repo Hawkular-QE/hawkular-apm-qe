@@ -140,6 +140,7 @@
             <excludes combine.children="append">
               <!-- Ignore lombok config files -->
               <exclude>**/lombok.config</exclude>
+              <exlude>Jenkinsfile</exlude>
             </excludes>
           </configuration>
         </plugin>
