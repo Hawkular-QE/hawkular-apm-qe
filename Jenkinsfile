@@ -13,7 +13,7 @@ node (jenkinsNode) {
 
     stage('Setup environment') {
         // Set description here if desired
-        currentBuild.description = "something...."
+        // currentBuild.description = "something...."
         git branch: 'jaeger', url: 'https://github.com/Hawkular-QE/hawkular-apm-qe.git'
 
         // Add tools to the environment and path
