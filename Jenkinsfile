@@ -17,8 +17,8 @@ node (jenkinsNode) {
         git branch: 'jaeger', url: 'https://github.com/Hawkular-QE/hawkular-apm-qe.git'
 
         // Add tools to the environment and path
-        def M2_HOME = tool 'maven-3.3.9'
-        def JAVA_HOME = tool 'jdk8'
+        def M2_HOME = tool 'Maven-3.3.9'
+        def JAVA_HOME = tool 'Oracle-jdk8'
         env.M2_HOME = "${M2_HOME}"
         env.JAVA_HOME = "${JAVA_HOME}"
         env.PATH = "${M2_HOME}/bin:${JAVA_HOME}/bin:${env.PATH}"
