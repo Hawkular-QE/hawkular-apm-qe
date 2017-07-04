@@ -1,3 +1,5 @@
+# THIS REPOSITORY IS DEPRECATED with https://github.com/Hawkular-QE/jaeger-java-test
+
 # Jaeger QE
 
 ### High level framework view
